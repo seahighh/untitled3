@@ -8,7 +8,7 @@ public class Response {
     private Integer status;
     private String message;
     private String contentType;
-    private String content;
+    private String content = "";
 
     public void setStatus(int  status){
         this.status=status;

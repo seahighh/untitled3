@@ -10,6 +10,7 @@ public class DemoApp implements Application {
     @Override
     public Response handle(Request request){
         Response response = new Response();
+        Response.setStatusCode(StatusCode);
         response.setStatus(200);
         response.setMessage(" FOUND");
         response.setContentType(" application/json");
